@@ -13,7 +13,7 @@ app.get("/" , (req,res) =>{
 });
 
 
-app.get("/about", (req,res) => {
+app.get("/abouts", (req,res) => {
 res.send("about page");
 });
 app.get("/navbar", (req,res) => {
