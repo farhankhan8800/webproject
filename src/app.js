@@ -13,8 +13,8 @@ app.get("/" , (req,res) =>{
 });
 
 
-app.get("/abouts", (req,res) => {
-res.send("about page");
+app.get("/about", (req,res) => {
+res.send("about pagess");
 });
 app.get("/navbar", (req,res) => {
     res.status(200).send("navbar page");
